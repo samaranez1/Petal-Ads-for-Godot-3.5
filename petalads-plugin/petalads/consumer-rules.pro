@@ -1,0 +1,2 @@
+-keep class com.astralwings.petalads.** { *; }
+-keep class com.huawei.hms.ads.** { *; }

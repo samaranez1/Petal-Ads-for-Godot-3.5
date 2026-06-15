@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <meta-data
+            android:name="org.godotengine.plugin.v1.GodotPetalAds"
+            android:value="com.astralwings.petalads.GodotPetalAds" />
+    </application>
+</manifest>
