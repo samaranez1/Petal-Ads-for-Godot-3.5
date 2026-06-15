@@ -5,6 +5,8 @@ A Godot 3.5 Android plugin for Huawei Petal Ads (HMS Ads Kit).
 1. Create your app in AppGallery Connect
 2. Download your own `agconnect-services.json`
 3. Place it in `android/build/assets/`
+## AndroidManifest.xml
+Replace `YOUR_APP_ID_HERE` with your App ID from AppGallery Connect → Project Settings.
 
 ## Features
 - Banner ads
