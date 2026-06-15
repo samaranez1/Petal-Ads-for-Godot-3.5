@@ -1,5 +1,10 @@
 # Godot Petal Ads Plugin (Godot 3.5)
+## Quick Install (No need to build)
 
+1. Go to [Releases](https://github.com/samaranez1/Petal-Ads-for-Godot-3.5/releases)
+2. Download `GodotPetalAds.aar` and `GodotPetalAds.gdap`
+3. Copy both files to `android/plugins/` in your Godot project
+4. Done
 A Godot 3.5 Android plugin for Huawei Petal Ads (HMS Ads Kit).
 ## Setup
 1. Create your app in AppGallery Connect
