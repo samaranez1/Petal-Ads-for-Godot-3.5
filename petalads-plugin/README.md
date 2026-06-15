@@ -1,4 +1,54 @@
-# Godot Petal Ads Plugin
+# Godot Petal Ads Plugin (Godot 3.5)
+
+A Godot 3.5 Android plugin for Huawei Petal Ads (HMS Ads Kit).
+## Setup
+1. Create your app in AppGallery Connect
+2. Download your own `agconnect-services.json`
+3. Place it in `android/build/assets/`
+
+## Features
+- Banner ads
+- Rewarded video ads
+
+## Requirements
+- Godot 3.5.x with Android custom build
+- `agconnect-services.json` from AppGallery Connect
+- Huawei Developer account
+
+## Installation
+1. Copy `GodotPetalAds.aar` and `GodotPetalAds.gdap` to `android/plugins/`
+2. Place `agconnect-services.json` in `android/build/assets/`
+3. Enable plugin in Project → Export → Android → Plugins
+
+## Dependencies (build.gradle)
+```groovy
+implementation 'com.huawei.hms:ads-prime:3.4.80.301'
+```
+
+## Usage
+Add `AdManager.gd` as an AutoLoad singleton.
+
+```gdscript
+# Show banner
+AdManager.show_banner()
+
+# Show rewarded video
+AdManager.show_rewarded_video()
+
+# Connect reward signal
+AdManager.connect("player_rewarded", self, "_on_rewarded")
+func _on_rewarded(type, amount):
+    lives += 1
+```
+
+## Test IDs
+- Banner: `testw6vs28auh3`
+- Rewarded: `testx9dtjwj8hp`
+
+## Notes
+- Banner ads work on non-Huawei devices, If you want show the test Ads download the huawei app gallery then sign-in and install HMS core
+- Rewarded ads require HMS Core (Huawei/Honor devices)
+- Tested on Godot 3.5.3# Godot Petal Ads Plugin
 
 This folder contains a Godot 3.5 Android plugin source bridge for Huawei Petal Ads.
 
