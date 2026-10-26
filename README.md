@@ -1,4 +1,4 @@
-[![Support on Ko-fi](https://kofi.com/img/githubbutton_sm.svg)](https://ko-fi.com/samuelaranez)
+[![Support onKofi(https://kofi.com/img/githubbutton_s.svg(https://kofi.com/samuelaranez)
 
 # Godot Petal Ads Plugin (Godot 3.5)
 ## Quick Install (No need to build)
