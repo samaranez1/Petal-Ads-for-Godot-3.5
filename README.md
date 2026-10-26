@@ -1,8 +1,6 @@
 
 
-[
-
-![Support on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)
+   [Support on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)
 
 ](https://ko-fi.com/samuelaranez)
 
